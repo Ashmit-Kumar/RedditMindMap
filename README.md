@@ -1,5 +1,3 @@
-
-````markdown
 # Reddit User Persona Generator
 
 This is a Python-based project that generates a detailed **user persona** by analyzing a Reddit user’s **posts** and **comments** using **LLM-based natural language analysis**. The output includes characteristics like interests, personality traits, writing tone, and more — along with proper citations from Reddit.
