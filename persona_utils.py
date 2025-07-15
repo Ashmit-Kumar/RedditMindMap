@@ -123,19 +123,36 @@ def generate_persona(posts: List[Dict[str, str]], comments: List[Dict[str, str]]
         f"{item['text']}\nSource: {item['url']}" for item in (posts + comments)
     ][:50]
 
-    prompt = (
-        "You are an AI assistant tasked with analysing a Reddit user. "
-        "Create a persona containing:\n"
-        "- Interests\n- Personality traits\n- Tone of writing\n"
-        "- Political or social leanings (if any)\n"
-        "- Possible profession or education\n- Language style or humor\n"
-        "- Citations for each trait (use the supplied URLs)\n\n"
-        "Content:\n"
-        + "-" * 80
-        + "\n"
-        + "\n\n".join(snippets)
-    )
+    # prompt = (
+    #     "You are an AI assistant tasked with analysing a Reddit user. "
+    #     "Create a persona containing:\n"
+    #     "- Interests\n- Personality traits\n- Tone of writing\n"
+    #     "- Political or social leanings (if any)\n"
+    #     "- Possible profession or education\n- Language style or humor\n"
+    #     "- Citations for each trait (use the supplied URLs)\n\n"
+    #     "Content:\n"
+    #     + "-" * 80
+    #     + "\n"
+    #     + "\n\n".join(snippets)
+    # )
 
+    prompt = f"""
+    Format the following Reddit user persona as a visually structured text report.
+    Use emoji headers, section dividers (like '-----'), and include citations for each trait.
+
+    Persona Requirements:
+    - Interests
+    - Personality Traits
+    - Tone
+    - Profession or Education
+    - Humor or Style
+    - Political/Social leanings (if any)
+    - Limitations
+
+    Reddit Posts and Comments:
+    {'-' * 80}
+    {chr(10).join(snippets)}
+    """
     response = _GEMINI_MODEL.generate_content(prompt)
     return response.text
 
