@@ -141,6 +141,3 @@ flake8 main.py persona_utils.py
 * Ensure your Reddit app is created as a **script app**, not web or installed.
 * If Gemini API throws a quota error, try reducing post/comment limit or use a smaller model.
 * Only public Reddit data is used; no login or upvote activity is tracked.
-
----
-
