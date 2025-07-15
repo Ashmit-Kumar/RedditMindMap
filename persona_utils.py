@@ -1,16 +1,18 @@
+import google.generativeai as genai
 import praw
-import openai
-import re
 import os
+import re
 
-# Reddit API setup (put your keys here or use dotenv)
+# Setup Gemini
+genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+model = genai.GenerativeModel("gemini-pro")
+
+# Setup Reddit
 reddit = praw.Reddit(
     client_id=os.getenv("REDDIT_CLIENT_ID"),
     client_secret=os.getenv("REDDIT_CLIENT_SECRET"),
     user_agent="persona-generator-script"
 )
-
-openai.api_key = os.getenv("OPENAI_API_KEY")
 
 def extract_username(url):
     match = re.search(r'reddit.com/user/([^/]+)', url)
@@ -35,26 +37,24 @@ def generate_persona(posts, comments):
     for p in posts + comments:
         examples.append(f"{p['text']}\nSource: {p['url']}")
 
-    prompt = f"""You are an AI analyst. Based on the Reddit user's posts and comments below,
-generate a detailed user persona. Include:
+    prompt = f"""You are an AI assistant tasked with analyzing a Reddit user based on their posts and comments.
+Create a user persona that includes:
+
 - Interests
-- Writing style
-- Tone
-- Political or social leanings
-- Any personal/professional clues
-- Supported by citations (post or comment links)
+- Personality traits
+- Tone of writing
+- Political or social leanings (if any)
+- Possible profession or education
+- Language style or humor
+- Citations for each trait (use URLs from posts/comments)
 
 Content:
 {'-'*80}
 {chr(10).join(examples[:50])}
 """
 
-    res = openai.ChatCompletion.create(
-        model="gpt-4",
-        messages=[{"role": "user", "content": prompt}]
-    )
-
-    return res.choices[0].message.content
+    response = model.generate_content(prompt)
+    return response.text
 
 def save_persona(username, persona):
     with open(f"{username}_persona.txt", "w") as f:
