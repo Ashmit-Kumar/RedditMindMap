@@ -32,7 +32,7 @@ def get_profile_url() -> str:
         return sys.argv[1]
 
     # Interactive fallback
-    print("No URL supplied on the command line.")
+    # print("No URL supplied on the command line.")
     raw = input("Paste the Reddit profile URL (or just the username): ").strip()
 
     # Allow users to paste only the username

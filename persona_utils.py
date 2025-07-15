@@ -123,36 +123,35 @@ def generate_persona(posts: List[Dict[str, str]], comments: List[Dict[str, str]]
         f"{item['text']}\nSource: {item['url']}" for item in (posts + comments)
     ][:50]
 
-    # prompt = (
-    #     "You are an AI assistant tasked with analysing a Reddit user. "
-    #     "Create a persona containing:\n"
-    #     "- Interests\n- Personality traits\n- Tone of writing\n"
-    #     "- Political or social leanings (if any)\n"
-    #     "- Possible profession or education\n- Language style or humor\n"
-    #     "- Citations for each trait (use the supplied URLs)\n\n"
-    #     "Content:\n"
-    #     + "-" * 80
-    #     + "\n"
-    #     + "\n\n".join(snippets)
-    # )
-
+    if not snippets:
+        return "No content available to generate a persona."    
     prompt = f"""
-    Format the following Reddit user persona as a visually structured text report.
-    Use emoji headers, section dividers (like '-----'), and include citations for each trait.
+    You are an AI tasked with analyzing a Reddit user's personality based on their recent posts and comments.
 
-    Persona Requirements:
-    - Interests
-    - Personality Traits
-    - Tone
-    - Profession or Education
-    - Humor or Style
-    - Political/Social leanings (if any)
-    - Limitations
+    Generate a well-formatted TEXT-ONLY persona report (not markdown or HTML). Use plain formatting with:
+    - Emoji headers (e.g. 🎯 Goals & Needs)
+    - Clear section titles with dashes or lines
+    - No asterisks, hashes, or markdown symbols
+    - Indent or format citations clearly
 
-    Reddit Posts and Comments:
-    {'-' * 80}
+    Each section should include relevant insights with citations from the user's content.
+
+    Sections to include:
+    1. 🎯 Interests
+    2. 🤔 Personality Traits
+    3. 🗣️ Tone of Writing
+    4. 👨‍🎓 Profession or Education (if inferred)
+    5. 😂 Humor or Style
+    6. 🌎 Political/Social Leanings (if any)
+    7. 🚫 Limitations
+    8. 💬 Representative Quote (optional)
+    9. ✅ Goals & Needs (optional)
+
+    Here are their Reddit posts and comments:
+    {'=' * 80}
     {chr(10).join(snippets)}
     """
+
     response = _GEMINI_MODEL.generate_content(prompt)
     return response.text
 
