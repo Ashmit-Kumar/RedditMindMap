@@ -2,6 +2,10 @@ import google.generativeai as genai
 import praw
 import os
 import re
+from dotenv import load_dotenv
+
+#loading .env content
+load_dotenv() 
 
 # Setup Gemini
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
