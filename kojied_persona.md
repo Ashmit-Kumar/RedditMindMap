@@ -1,88 +1,82 @@
 ## 🎯 Interests
 
+-  New York City nightlife and culture (post about feeling "violated" by intern season).
+-  H1B visa experiences and perspectives.
+-  NBA officiating inconsistencies.
+-  TikTok bans in the US.
+-  Gen Z coming-of-age movies.
+-  Spacial computing and the Apple Vision Pro (multiple posts and comments).
+-  iOS development and visionOS.
+-  ESG ratings and consumer behavior.
+-  Frugality and mindful spending habits.
+-  Plant care (multiple posts about English ivy and Creepy Charlie).
+-  Options trading and stock market analysis.
+-  Video game strategy (Manor Lords).
+-  AI-generated content and short films.
+-  Anime (mention of Edgerunners).
+-  NFT market trends and analysis
+
+
 ---
-This Reddit user demonstrates a broad range of interests, including:
-
-*   **Finance and Investing:**  Frequent discussions on options trading, stock market trends ("Still buying options?", "Seeking advice: I’ve made some gains buying put options this month"), and transferring large sums of money between brokerage accounts ("50k at a time?").  There's also mention of ESG ratings and their potential impact on consumer behavior ("Tracking our individual impacts on the world through ESG ratings").
-*   **Technology:**  Enthusiastic about new technologies, particularly Apple's Vision Pro headset ("Can't wait for Vision Air 5", "Killer feature: accessing chatGPT", "Would you guys like to see Pokemon Go in AVP?").  Also shows interest in iOS development and spatial computing ("Best blogs, tutorial channels to learn").
-*   **Gaming:**  Plays Manor Lords ("Sorry to hear that man...","Yeah I was doing alright and then..."), and mentions a lack of late-game content in an unnamed game.  References watching Cyberpunk: Edgerunners.
-*   **Food and Drink:** Provides a detailed itinerary of NYC restaurants for a hypothetical day of eating ("Breakfast - Buvette...").
-*   **Urban Life and Culture:**  Expresses feelings about the changing atmosphere of a favorite bar due to intern season in NYC ("I feel violated by intern season").  Also demonstrates an interest in New York City's history and culture.
-*   **Plants:**  Seeks advice on caring for struggling English Ivy plants ("【Help!】English ivy is withering", "English ivy in critical condition").
-
-
 ## 🤔 Personality Traits
 
+-  Observant and detail-oriented (posts on NYC nightlife, plant care, and stock market observations).
+-  Analytical and data-driven (ESG rating post, app idea for purchase tracking).
+-  Curious and inquisitive (numerous questions on Reddit, explorations of diverse topics).
+-  Opinionated, but open to discussion (presents arguments about NFTs, ESG, and various other topics).
+-  Technologically savvy and forward-thinking (enthusiasm for Vision Pro, iOS development, and AI).
+-  Pragmatic and results-oriented (approach to options trading, discussions of efficiency in game play).
+
+
 ---
-Based on the provided data, this user appears:
-
-*   **Analytical and Strategic:**  The user demonstrates a methodical approach to problem-solving, particularly in finance (options trading strategies) and game playing (Manor Lords strategy).
-*   **Curious and Inquisitive:**  Asks numerous questions across various subreddits, demonstrating a desire to learn and explore new ideas.
-*   **Tech-Savvy:**  Comfortable using and discussing advanced technology, including VR/AR headsets, programming, and financial trading platforms.
-*   **Reflective:** The user contemplates their place in society and the impact of larger forces (intern season, ESG scores).  They show some level of self-awareness.
-*   **Opinionated:**  Expresses clear opinions on topics such as the NFT market ("NFTs in 2025"), the value of ESG ratings, and the potential of the Vision Pro.
-
-
 ## 🗣️ Tone of Writing
 
+-  Generally conversational and informal.
+-  Uses humor and self-deprecating remarks (e.g., "I was at the wrong party").
+-  Can be insightful and thought-provoking (NFT and ESG posts).
+-  Sometimes expresses frustration or concern (posts about Vision Pro limitations, plant issues).
+
+
 ---
-The user's writing style is generally:
-
-*   **Informative:** Often presents factual information or seeks factual information from others.
-*   **Direct and Concise:**  Gets to the point quickly in their posts and comments.
-*   **Occasionally Humorous:** Uses humor, often self-deprecating ("I rarely finish a game haha").
-*   **Engaging:**  Poses questions to encourage discussion and interaction with other users.
-
-
 ## 👨‍🎓 Profession or Education
 
+-  Likely works in a tech-related field, possibly as an iOS developer (posts on visionOS and iOS development).
+-  Demonstrates understanding of financial markets and investment strategies (comments on options trading and ESG ratings).
+-  Potentially holds an advanced degree (deep understanding of complex topics).
+
+
 ---
-The user's comments suggest:
-
-*   **Software Engineer/Developer:**  Their interest in iOS development and spatial computing, and their familiarity with technical concepts, strongly suggests a background in software engineering or a related field.
-*   **Possibly in Finance:**  Their extensive experience trading options and discussing financial strategies also suggests professional experience or significant personal engagement in the finance sector.
-*   **Environmental Consultant (Past):** This is mentioned in their ESG-focused post.
-
-
 ## 😂 Humor or Style
 
+-  Uses self-deprecating humor.
+-  Observational humor based on everyday experiences.
+-  Relates his comments to personal anecdotes.
+
+
 ---
-The user's humor is:
-
-*   **Dry and Observational:**  Often finds humor in everyday situations and self-deprecating observations.
-*   **Subtle:**  Not overtly comedic but laced throughout their posts.
-
-
 ## 🌎 Political/Social Leanings
 
+-  No overtly expressed political leanings; the user engages in discussions across various political subreddits (e.g., r/Conservative, r/ClimateOffensive) without overt bias.
+
+
 ---
-Limited information points to:
-
-*   **Moderate to Centrist:**  While they participated in a conservative subreddit ("Are you guys for/against banning Tiktok?"), the lack of overtly partisan posts in other areas suggests they're not strongly aligned with any political extreme.  Their interest in ESG suggests an environmental consciousness.
-
-
 ## 🚫 Limitations
 
----
-The user's posts show:
+-  Overly invested in certain technologies (Vision Pro); opinions may be skewed by hype.
+-  Limited engagement in the comment sections of some posts, suggesting potential for less thorough analysis.
 
-*   **Limited Sample Size:**  The provided posts offer a snapshot of their activity but don't paint a complete picture of their personality. More data would refine the assessment.
-*   **Potential for Online Persona:**  The user's online persona might differ from their real-life personality.
-*   **Lack of Emotional Expression (in some posts):** While they express frustration and other emotions, some posts are highly factual, which could be a limitation of the sample size or a conscious choice in certain subreddits.
-
-
-## 💬 Representative Quote (optional)
 
 ---
-"I feel that companies would take ESG ratings seriously if consumers changed their purchase behaviors based on the score." This quote showcases their analytical mindset and interest in the intersection of business and social responsibility.
+## 💬 Representative Quote
 
+“Am I not the same as they are, just at a longer time horizon? I'm also a transient being in the city. They might only be here for three months, but I've only been here for three years as well.”  (From the post about intern season in NYC)
 
-## ✅ Goals & Needs (optional)
 
 ---
-Based on their posts, the user appears to have goals related to:
+## ✅ Goals & Needs
 
-*   **Financial Success:**  Their involvement in options trading and the desire to transfer large sums of money to a new brokerage account suggests a focus on building wealth.
-*   **Technological Advancement:**  The excitement and engagement with new technologies, particularly Apple Vision Pro, suggest a drive to explore and participate in tech development.
-*   **Personal Growth:**  The user consistently seeks information and advice across various domains, suggesting a need for continued learning and self-improvement.
-*   **Community Engagement:**  The user actively participates in various online communities and seeks interaction and collaboration with other users.
+-  To find solutions to problems related to his professional work (iOS, Vision Pro).
+-  To understand and improve his consumer behavior.
+-  To connect with other users who share his interests.
+-  To improve his plant care.
+-  To gain insights into market trends and investment opportunities.
