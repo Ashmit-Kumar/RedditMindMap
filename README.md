@@ -1,14 +1,3 @@
-Here's a polished and professional `README.md` file tailored exactly to the **BeyondChats internship assignment** instructions. It includes:
-
-* Setup instructions
-* Execution instructions
-* Output explanation
-* Tech stack
-* Notes on API keys and dependencies
-
----
-
-### ✅ `README.md`
 
 ````markdown
 # Reddit User Persona Generator
