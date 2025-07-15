@@ -60,52 +60,70 @@ GOOGLE_API_KEY=your_google_gemini_api_key
 ```
 
 ---
-
 ## 🧪 How to Run
 
-Run the script by providing any Reddit profile URL:
+You can run the script in two ways:
+
+### **Option 1 – With a Reddit Profile URL as an Argument**
 
 ```bash
 python main.py https://www.reddit.com/user/kojied/
 ```
 
-This will:
+### **Option 2 – Run Without Arguments (Interactive Mode)**
 
-1. Extract the username from the URL.
-2. Scrape up to 30 posts and 30 comments.
-3. Generate a structured persona using Gemini LLM.
-4. Save the output to a file:
-   👉 `kojied_persona.txt`
+```bash
+python main.py
+```
+
+You will be prompted to enter a Reddit profile URL or just the username.
+
+---
+
+### 💡 What Happens When You Run It:
+
+1. Extracts the username from the provided URL (or direct input).
+2. Scrapes up to **30 posts** and **30 comments** using the Reddit API.
+3. Uses **Google Gemini LLM** to generate a structured persona.
+4. Saves the output in two formats:
+
+   * 📄 `kojied_persona.txt` (text-based for terminal and evaluation)
+   * 📝 `kojied_persona.md` (Markdown-formatted for GitHub)
 
 ---
 
 ## 📁 Example Output
 
-Each output `.txt` file will include:
+Each persona file (`.txt` and `.md`) includes:
 
-* **Interests**
-* **Personality traits**
-* **Tone of writing**
-* **Possible education/profession**
-* **Political/Social leanings**
-* **Citations** for each inferred trait
+* 🎯 **Interests**
+* 🤔 **Personality traits**
+* 🗣️ **Tone of writing**
+* 👨‍🎓 **Possible profession or education**
+* 😂 **Language style or humor**
+* 🌎 **Political/social leanings (if any)**
+* 🚫 **Limitations**
+* 🔗 **Citations** for each trait (Reddit post or comment URL)
+* 💬 (Optional) **Representative quote**
+* ✅ (Optional) **Goals and needs**
 
 ---
 
 ## 📦 File Structure
 
-```
+```plaintext
 reddit-user-persona-generator/
 │
-├── main.py                  # CLI entry point
-├── persona_utils.py         # Core logic and helper functions
-├── requirements.txt         # Python dependencies
-├── .env                     # (not committed) for API keys
-├── kojied_persona.txt       # Sample output
-├── Hungry-Move-6603_persona.txt  # Sample output
-└── README.md                # You're here
+├── main.py                     # Entry point for CLI or prompt-based input
+├── persona_utils.py            # All scraping, LLM generation, saving logic
+├── requirements.txt            # Python dependencies
+├── .env                        # Stores API keys (excluded from Git)
+├── kojied_persona.txt          # Sample output (text format)
+├── kojied_persona.md           # Sample output (Markdown format)
+├── Hungry-Move-6603_persona.txt
+├── Hungry-Move-6603_persona.md
+└── README.md                   # README file
 ```
-
 ---
 
 ## ✅ PEP-8 Compliant
