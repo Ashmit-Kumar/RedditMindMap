@@ -31,7 +31,7 @@ This project was built as part of the Generative AI Internship Assignment for **
 
 ```bash
 git clone https://github.com/your-username/reddit-user-persona-generator.git
-cd reddit-user-persona-generator
+cd RedditMindMap
 ````
 
 ### 2. Install dependencies
