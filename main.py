@@ -58,7 +58,14 @@ def main() -> None:
         sys.exit(1)
 
     persona = generate_persona(posts, comments)
-    save_persona(username, persona)
+    if not persona:
+        print("❌  Failed to generate a persona. Exiting.")
+        sys.exit(1)
+    
+    # Save the persona to a text file
+    # The function also saves it to .md and .json formats
+    # so we don't need to call those functions separately.
+    save_persona(username, persona, posts, comments)
 
     print(f"✅  Persona generated → {username}_persona.txt")
 
