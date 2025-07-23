@@ -11,8 +11,10 @@ Run either of these:
 """
 
 from __future__ import annotations
-
 import sys
+
+
+from supabase_utils import fetch_usernames, mark_username_processed
 from persona_utils import (
     extract_username,
     scrape_user_data,
